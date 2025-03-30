@@ -1,0 +1,112 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #bd1c1c;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: #ccc;
+}
+
+form ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul li{
+    margin: 10px 0;
+}
+
+form ul li label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form ul li input[type="text"],
+form ul li input[type="email"],
+form ul li textarea[id="msg"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+section , article{
+    flex: 20%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: #ccc;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
