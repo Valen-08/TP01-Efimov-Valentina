@@ -1,21 +1,31 @@
 body{
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Candara, sans-serif;
     margin: 10px;
     padding: 10px;
     line-height: 1.6;
 }
 
+h2{
+    color: #141414;
+    text-align: center;
+}
+
+p{
+    color: #292929;
+    text-align: justify;
+}
+
 header{
-    background-color: #333;
-    color: #fff;
+    background-color: #bd3c2e;
+    color: #ffffff;
     padding: 10px 0;
     text-align: center;
     margin: 0;
 }
 
 nav{
-    background-color: #333;
+    background-color: #c45b51;
     padding: 10px;
 }
 
@@ -36,12 +46,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #bd1c1c;
+    color: #586138;
 }
 
 button{
-    background-color: #333;
-    color: #fff;
+    background-color: #c09993;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -104,9 +114,17 @@ section , article{
 }
 
 footer{
-    background-color: #333;
-    color: #fff;
+    background-color: #bd3c2e;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.img-museo{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px;
 }
